@@ -3,7 +3,7 @@ class Turma:
     self.turma = [];
     self.menorNota = None;
     self.maiorNota = None;
-
+# teste
   def cadastrarAlunos(self, alunos):    
     for i in alunos:      
       if(i.nota <= 10 and i.nota >= 0):
